@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Videos hospedados localmente </h1>
+    <p>Este vídeo está hospedado em meu proprio servidor.</p>
+    <h2>Podemos tambem ultilizar tag source SRC para adiconar videos em outros formatos compartives com outros navegadores , ex safaria da Apple ñ e compativel com ogg</h2>
+    <h3>A tag poster = " " pode colocar uma capa no video</h3>
+    <p>Usando a tag video separado e adicionando tag source</p>
+    <video width="500" poster="" controls autoplay loop>
+        <source src="video/brasil640x360.mp4" type="video/mp4">
+        <source src="video/brasilconvertwebm.webm" type="video/webm">
+        <p>Seu navegador nao possui compatibilidade para reprodução de vídeos.</p>
+    </video>
+    <h1>Podemos adiconar videos gerando um custo menor para cliente </h1>
+    <h3>Video do Youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aYF1Isa05Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
